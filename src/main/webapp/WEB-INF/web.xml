@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>AddServlet</servlet-name>
+        <servlet-class>com.example.AddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddServlet</servlet-name>
+        <url-pattern>/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SubtractServlet</servlet-name>
+        <servlet-class>com.example.SubtractServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SubtractServlet</servlet-name>
+        <url-pattern>/subtract</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TimesServlet</servlet-name>
+        <servlet-class>com.example.TimesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TimesServlet</servlet-name>
+        <url-pattern>/times</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DivServlet</servlet-name>
+        <servlet-class>com.example.DivServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DivServlet</servlet-name>
+        <url-pattern>/div</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>NegServlet</servlet-name>
+        <servlet-class>com.example.NegServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NegServlet</servlet-name>
+        <url-pattern>/neg</url-pattern>
+    </servlet-mapping>
+
+</web-app>
