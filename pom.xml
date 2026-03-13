@@ -16,7 +16,6 @@
     </properties>
 
     <dependencies>
-        <!-- Servlet API -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
@@ -28,7 +27,6 @@
     <build>
         <finalName>restful-bots</finalName>
         <plugins>
-            <!-- App Engine plugin -->
             <plugin>
                 <groupId>com.google.cloud.tools</groupId>
                 <artifactId>appengine-maven-plugin</artifactId>
